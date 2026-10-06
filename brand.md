@@ -72,6 +72,13 @@ Rules:
 - Never stretch, rotate, recolor, add effects, or place on busy backgrounds.
 - Never recreate or redraw the logo.
 
+### Imagery
+- Abstract, impressionist nature imagery. Flowers and foliage dissolve into soft streaks of color, suggesting a feeling rather than describing a place. Calm, organic, slightly dreamlike, with an analog warmth.
+- Approved images are stored in: /assets/images/
+
+Rules:
+- Full-bleed backgrounds and textures behind typography. Avoid sharp, literal or highly saturated imagery.
+
 ### Layout principles
 - Generous white space. When in doubt, add space rather than remove it.
 - One clear focal point per page, slide or view.
