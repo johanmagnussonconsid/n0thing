@@ -25,7 +25,7 @@ Tokens: colors, typography, spacing, logo rules. Contrast requirements.
 
 ### Colors
 | Token | HEX | Role |
-|---|---|---|---|---|---|
+|---|---|---|
 | `primary` | #2B332A | Headings, key elements, brand surfaces |
 | `secondary` | #2CFF05 | Accents and highlights only |
 | `text` | #1C1C1C | Body text |
