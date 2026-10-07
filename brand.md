@@ -26,9 +26,9 @@ Tokens: colors, typography, spacing, logo rules. Contrast requirements.
 ### Colors
 | Token | HEX | Role |
 |---|---|---|---|---|---|
-| `primary` | #2B332A |Headings, key elements, brand surfaces |
-| `secondary` | #2CFF05 |Accents and highlights only |
-| `text` | #1C1C1C |Body text |
+| `primary` | #2B332A | Headings, key elements, brand surfaces |
+| `secondary` | #2CFF05 | Accents and highlights only |
+| `text` | #1C1C1C | Body text |
 | `background` | #FFFFFF | Default background |
 | `surface` | #2CFF05 | Secondary backgrounds, boxes |
 
@@ -62,15 +62,22 @@ Rules:
 ### Logo
 
 #### Versions
+
+Base URL: /assets/logo/
+
 | Version | Logo color | Allowed backgrounds | File |
 |---|---|---|---|
-| Primary | `primary` | `background`, `surface` | /assets/logo/logo-n0thing.svg |
-| Negative | `secondary` | `primary`, dark images | /assets/logo/logo-n0thing.svg |
-| Monochrome | `text` | `background`, `surface` | /assets/logo/logo-n0thing.svg |
+| Primary | `primary` | `background`, `surface` | logo-nothing.svg, logo-nothing-primary.png |
+| Secondary | `secondary` | `primary`, dark images | logo-nothing.svg, logo-nothing-secondary.png |
+| Negative | `background` | `primary`, `secondary`, dark images | logo-nothing.svg, logo-nothing-negative.png |
+| Monochrome | `text` | `background`, `surface` | logo-nothing.svg, logo-nothing-monochrome.png |
 
 Rules:
 - Never stretch, rotate, recolor, add effects, or place on busy backgrounds.
 - Never recreate or redraw the logo.
+- Use SVG whenever the tool or format supports it.
+- Use PNG where SVG is not supported.
+- Choose the PNG closest to, but larger than, the displayed size. Never scale a PNG up.
 
 ### Imagery
 - Abstract, impressionist nature imagery. Flowers and foliage dissolve into soft streaks of color, suggesting a feeling rather than describing a place. Calm, organic, slightly dreamlike, with an analog warmth.
